@@ -4,12 +4,12 @@
   "guideline": "Road v1.0",
   "name": "hoanghaidang",
   "revision": 1,
-  "created_at": "2026-11-20T15:19:09+00:00",
+  "created_at": "2026-11-20T16:33:43+00:00",
   "files": [
     {
       "file": "hoanghaidang-front.zip",
-      "bytes": 9205,
-      "sha256": "6216c6d1aedf4dfb74fc76c9b1496ec4aabf940f2d810ca845d3ca1161be66b9",
+      "bytes": 9324,
+      "sha256": "3a8dab118188028d02fe97a2fcc2f05910d804e5ba74a608d554d7a0608b46c2",
       "contains_images": false,
       "images": 16,
       "images_unlabelled": 0,
@@ -17,16 +17,16 @@
       "shapes_by_label": {
         "crosswalk": 6,
         "drivable": 32,
-        "lane": 45,
+        "lane": 41,
         "road_curb": 14,
-        "traffic_light": 34,
-        "traffic_sign": 44
+        "traffic_light": 36,
+        "traffic_sign": 46
       }
     },
     {
       "file": "hoanghaidang-fisheye.zip",
-      "bytes": 5758,
-      "sha256": "e40b900b42f126d302383b0d12164c0eab91f1f437b94a622bc0ef419c5b98e6",
+      "bytes": 5840,
+      "sha256": "1573850603d55eb9a7a6f9ce0d17bee964163aa3fe641499ac6c3f5d6e296760",
       "contains_images": false,
       "images": 12,
       "images_unlabelled": 0,
@@ -43,7 +43,7 @@
   ],
   "lint": {
     "nặng": 6,
-    "chính": 12,
+    "chính": 0,
     "nhẹ": 8
   },
   "note": "Tạo bởi road_check lint. Mô tả file đã gửi, không phải kết luận chất lượng."
