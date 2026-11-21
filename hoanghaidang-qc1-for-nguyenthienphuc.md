@@ -40,4 +40,4 @@ Lỗi nặng: 5   Lỗi chính: 0 / 88 nhãn = 0 %   Lỗi nhẹ: 1   Ca chờ l
 Quyết định (Release / Hold / Rework): Rework  
 Lý do (theo luật của phiếu): Còn 5 lỗi nặng (QC1-10 bỏ sót biển ở A01, A03, A06, A08); có ít nhất một lỗi nặng là Rework.
 
-Loại lỗi: bỏ sót = thiếu nhãn phải có; thừa = gán cái không phải đối tượng; sai phạm vi = hình lệch, sai chiều, dừng sai chỗ, tràn vùng. Ba loại này theo cách chia lỗi gán nhãn của ISO/IEC 5259-4 (mục 8.4.2); "sai thuộc tính" và "lỗi file" là khóa học thêm. Cách xếp mức: [thang mức lỗi](../docs/qc_severity_road_v1.0.md).
+Loại lỗi: bỏ sót = thiếu nhãn phải có; thừa = gán cái không phải đối tượng; sai phạm vi = hình lệch, sai chiều, dừng sai chỗ, tràn vùng. Ba loại này theo cách chia lỗi gán nhãn của ISO/IEC 5259-4 (mục 8.4.2); "sai thuộc tính" và "lỗi file" là khóa học thêm. Cách xếp mức: [thang mức lỗi](docs/qc_severity_road_v1.0.md).

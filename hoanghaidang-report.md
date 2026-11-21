@@ -36,12 +36,22 @@ Ghi chú: gom thành 2 task (front 16 ảnh, fisheye 12 ảnh); ảnh thêm gi�
 | B11 | lane | Gán / không gán | Không gán | Chỉ có vạch ô đỗ — bẫy QC1-03 |
 
 ## 4. Phiếu QC 1 nhận được
-Bạn kiểm lô của tôi: __________  Quyết định nhận được: __________  
-| Mã lỗi | Số lỗi | Đồng ý? | Đã sửa? |
-| --- | ---: | --- | --- |
-|  |  |  |  |
+**Bạn kiểm lô của tôi**: Trần Ngọc Quân
+**Quyết định nhận được**: HOLD 
 
-Trước đó đã tự QC 6 ảnh và sửa: sai `position` A04 (QC1-03), ~50 polyline vẽ ngược chiều (QC1-04), thiếu đèn/biển ở A03, A04 (QC1-08, QC1-10), sai `facing`/`group` (QC1-09), `edge_zone` B02 (QC1-11), tag camera B09 (QC1-01).
+| Mã lỗi | Ảnh | Đã sửa |
+| --- | --- | --- |
+| QC1-02 | A06 | Thêm L1 vàng ở đoạn nhìn thấy. Thêm R1 solid white ở vạch mép sát lề phải. |
+| QC1-02 | A07, A08, A14 | Soi lại ở độ phóng 3–4 lần thì cả ba ảnh đều thấy vạch. Đã thêm L1 ở A07 (solid), A08 (dashed) và R1 ở A14. Tọa độ ghi ở bảng ca khó. |
+| QC1-04 | A02, A03, A11 | Chỉnh tâm vạch. Tại `y=511` ở A02, R1 chuyển từ `x=871` về `x=836`. |
+| QC1-07 | A12, B06, B07 | Thêm `direct` cho A12, thu `direct` ở B06, thêm vùng qua đường thứ hai ở B07. |
+| QC1-08 | B02 | Dời box trên nền trời về cụm đèn và thêm cụm đèn đỏ ở xa. |
+| QC1-11 | B03 | Chỉnh polyline R1 giữa các đoạn sơn nhìn thấy để bám cung. |
+| QC1-04 | A04, A08 | Tự kiểm lần hai trên 6 ảnh mẫu: thêm R2 ở A04 (vạch trong cạnh làn xe đạp) và A08 (vạch mép phải). |
+| QC1-08 | A06 | Thêm cụm đèn quay ngang ở góc trên trái, `(33,28)–(92,71)`, `color = unknown`. |
+| QC1-10 | A08 | Thêm ba biển trên cột bên phải, tại `(990–1009, 184–247)`. |
+
+Trước đó đã tự QC 6 ảnh (A01, A03, A04, A06, A08, B02) và sửa: sai `position` A04 (QC1-03), ~50 polyline vẽ ngược chiều (QC1-04), thiếu đèn/biển ở A03, A04 (QC1-08, QC1-10), sai `facing`/`group` (QC1-09), `edge_zone` B02 (QC1-11), tag camera B09 (QC1-01)*
 
 ## 5. Kiểm file export
 | File | Mở lại được? | Số shape ảnh 1 (job / file) | Số shape ảnh 2 (job / file) | Tag camera có trong XML? |
